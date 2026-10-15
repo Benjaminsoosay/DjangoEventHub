@@ -1,47 +1,43 @@
 # Django Event Hub
 
-{Provide a description of the software. This is a Django-based web application that allows users to browse events and make bookings. It demonstrates the use of the Model-View-Template (MVT) architecture, database models, and form handling.}
+## Description
+DjangoEventHub is a web application built using the Django framework. It is designed to allow users to browse, view, and book events. The application utilizes a SQLite database and includes a fully functional administrative backend.
 
 ## Purpose
+The purpose of this software is to fulfill the requirements for the Web Apps module. It demonstrates the ability to create a full-stack web application using Django, including database modeling, form handling, template rendering, and user interaction.
 
-{Describe your purpose for writing this software. The purpose of this project was to learn and apply the core concepts of the Django web framework, including setting up a project, creating models, building views, designing templates, and managing a database through the Django Admin panel.}
+## Demonstration
+A video demonstration of the software can be viewed at the following link: 
+[Loom Video Demonstration](https://www.loom.com/share/46e24049329e43cd88e9e9fb9e6347ca)
 
-## Video Demonstration
+## Repository
+The source code for this project is available on GitHub:
+[DjangoEventHub GitHub Repository](https://github.com/Benjaminsoosay/DjangoEventHub)
 
-[Software Demo Video](https://www.loom.com/share/46e24049329e43cd88e9e9fb9e6347ca)
+## Web Pages
+The application includes the following web pages:
+*   **Home / Event List:** The landing page that displays a list of all available events to the user.
+*   **Event Details:** A page displaying specific information about a selected event.
+*   **Booking Page:** A form page where users can input their information to book a spot for an event.
+*   **Admin Panel:** The Django built-in admin interface used to manage events, bookings, and user data.
 
-{Provide a link to your YouTube or Loom demonstration. The video should be 4-5 minutes in length and show:
-- A demo of the software running.
-- A walkthrough of the code.}
+## Technologies Used
+*   **Framework:** Django (Python)
+*   **Database:** SQLite (`db.sqlite3`)
+*   **Frontend:** HTML, CSS (via Django Templates)
+*   **Other:** Django Forms, Django Models
 
-## Development Environment
+## Installation and Setup
+To run this project locally, follow these steps:
+1. Clone the repository to your local machine:
+   `git clone https://github.com/Benjaminsoosay/DjangoEventHub.git`
+2. Install the required dependencies:
+   `pip install -r requirements.txt`
+3. Apply database migrations:
+   `python manage.py migrate`
+4. Start the development server:
+   `python manage.py runserver`
+5. Open your web browser and navigate to `http://127.0.0.1:8000/`
 
-{Describe the tools used to develop the software.}
-* **Language:** Python 3
-* **Framework:** Django
-* **Database:** SQLite (default for Django)
-* **IDE:** Visual Studio Code
-* **Version Control:** Git & GitHub
-
-## Useful Websites
-
-{Make a list of websites that you found helpful in this project.}
-* [Django Official Documentation](https://docs.djangoproject.com/en/stable/)
-* [Django Tutorial: Writing your first app](https://docs.djangoproject.com/en/stable/intro/tutorial01/)
-* [MDN Web Docs - Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
-
-## Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Add user authentication so individuals can log in and see their own bookings.
-* Implement a search bar to filter events by name or date.
-* Improve the user interface with additional CSS styling.
-* Add the ability to create and edit events through the web interface, not just the Admin panel.
-
-## Setup and Installation
-
-{Provide a description of how to install and run your software.}
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Benjaminsoosay/DjangoEventHub.git
-    cd DjangoEventHub
+## Author
+Benjamin
